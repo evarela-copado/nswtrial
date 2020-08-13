@@ -6291,16 +6291,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__User_Story_Title__c</columns>
-        <columns>copado__userStory_Role__c</columns>
-        <columns>copado__userStory_need__c</columns>
-        <columns>copado__userStory_reason__c</columns>
-        <columns>copado__Story_Points_SFDC__c</columns>
-        <columns>copado__Story_Points_Other__c</columns>
-        <columns>copado__Status__c</columns>
-        <columns>copado__Project__c</columns>
-        <columns>copado__Epic__c</columns>
-        <columns>copado__Sprint__c</columns>
-        <columns>copado__Release__c</columns>
         <columns>LAST_UPDATE</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
@@ -7732,7 +7722,7 @@ copado__Promote_and_Deploy__c = true
 ), 
 OR( 
 ISBLANK( SCA_Score__c ), 
-SCA_Score__c &gt; 0 
+SCA_Score__c &gt; 3 
 ) 
 )</errorConditionFormula>
         <errorMessage>Static Code Analysis has either not been run or the SCA Score is too high.</errorMessage>
@@ -7749,7 +7739,7 @@ SCA_Score__c &gt; 0
     </validationRules>
     <validationRules>
         <fullName>copado__Promote_User_Story_Apex_validation</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>If User Story has apex code, validate that the minimum code coverage has been met.</description>
         <errorConditionFormula>AND(
   copado__Has_Apex_Code__c = true,
