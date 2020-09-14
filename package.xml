@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>copado__Git_Backups</members>
-        <members>copado__Org_Credentials_with_Snapshot_Commits_with_User_Story_Commits</members>
-        <members>copado__Orgs_with_Git_Backups</members>
-        <members>copado__Selenium_Test_Results</members>
-        <members>copado__User_Stories_with_Pull_Requests_with_Pull_Request_Reviews</members>
-        <members>screen_flows_prebuilt_crt</members>
-        <name>ReportType</name>
+        <members>AppSwitcher</members>
+        <members>Salesforce1</members>
+        <name>AppMenu</name>
     </types>
     <version>49.0</version>
 </Package>
