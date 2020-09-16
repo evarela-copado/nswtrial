@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Copado_Trial_UtilityBar</members>
-        <members>LightningSalesConsole_UtilityBar</members>
-        <members>Pipeline_Record_Page_Unmanaged</members>
-        <members>Static_Code_Analysis_Result_Record_Page_Unmanaged</members>
-        <members>Static_Code_Analysis_Settings_Record_Page_Unmanaged</members>
-        <members>User_Story_Record_Page_Unmanaged</members>
-        <members>copado__Connection_Behavior</members>
-        <members>copado__Copado_Console_UtilityBar</members>
-        <members>copado__Metadata_Group</members>
-        <members>copado__Metadata_Item</members>
-        <members>copado__Quality_Gate</members>
-        <name>FlexiPage</name>
+        <members>AppSwitcher</members>
+        <members>Salesforce1</members>
+        <name>AppMenu</name>
     </types>
     <version>49.0</version>
 </Package>
