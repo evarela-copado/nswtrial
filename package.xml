@@ -50,8 +50,7 @@
         <members>IsvHammer</members>
         <members>Language</members>
         <members>LeadConfig</members>
-        <members>LightningExperi</Package>
-rs>
+        <members>LightningExperience</members>
         <members>Macro</members>
         <members>MapsAndLocation</members>
         <members>Mobile</members>
